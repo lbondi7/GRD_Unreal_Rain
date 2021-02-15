@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\mudki\Documents\WwiseProjects\GRD Rain\</ProjectRoot>
+		<SourceFilesRoot>D:\mudki\Documents\WwiseProjects\GRD Rain\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\mudki\Documents\GitHub\GRD_Unreal_Rain\Rain\Plugins\Wwise\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\mudki\Documents\WwiseProjects\GRD Rain\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1738712435">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2856496333">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3632828356" Name="Help" ObjectPath="\Events\Default Work Unit\Help">
+					<IncludedMemoryFiles>
+						<File Id="1002995219" Language="SFX">
+							<ShortName>Hard Rain loopable.wav</ShortName>
+							<Path>SFX\Hard Rain loopable_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4273436668" Name="Rain_Emitter" ObjectPath="\Events\Default Work Unit\Rain_Emitter">
+					<IncludedMemoryFiles>
+						<File Id="403375323" Language="SFX">
+							<ShortName>Medium Rain loopable.wav</ShortName>
+							<Path>SFX\Medium Rain loopable_D79FB2B7.wem</Path>
+						</File>
+						<File Id="598784176" Language="SFX">
+							<ShortName>Rain loopable.wav</ShortName>
+							<Path>SFX\Rain loopable_D79FB2B7.wem</Path>
+						</File>
+						<File Id="717277242" Language="SFX">
+							<ShortName>Close up rain loopable.wav</ShortName>
+							<Path>SFX\Close up rain loopable_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1002995219" Language="SFX">
+							<ShortName>Hard Rain loopable.wav</ShortName>
+							<Path>SFX\Hard Rain loopable_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="333759775" Name="Downpour" ObjectPath="\Game Parameters\Default Work Unit\Downpour"/>
+				<GameParameter Id="4228515939" Name="ImpactWeight" ObjectPath="\Game Parameters\Default Work Unit\ImpactWeight"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3362502408" Name="RainStrength" ObjectPath="\Switches\Default Work Unit\RainStrength">
+					<Switches>
+						<Switch Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\RainStrength\Off"/>
+						<Switch Id="545371365" Name="Low" ObjectPath="\Switches\Default Work Unit\RainStrength\Low"/>
+						<Switch Id="2849147824" Name="Medium" ObjectPath="\Switches\Default Work Unit\RainStrength\Medium"/>
+						<Switch Id="2732489590" Name="Heavy" ObjectPath="\Switches\Default Work Unit\RainStrength\Heavy"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material">
+					<Switches>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Material\Grass"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Material\Concrete"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Material\Water"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3632828356	Help			\Default Work Unit\Help	
+	4273436668	Rain_Emitter			\Default Work Unit\Rain_Emitter	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3362502408	RainStrength			\Default Work Unit\RainStrength	
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	545371365	Low	RainStrength			
+	930712164	Off	RainStrength			
+	2732489590	Heavy	RainStrength			
+	2849147824	Medium	RainStrength			
+	841620460	Concrete	Material			
+	2058049674	Wood	Material			
+	2473969246	Metal	Material			
+	2654748154	Water	Material			
+	4248645337	Grass	Material			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	333759775	Downpour			\Default Work Unit\Downpour	
+	4228515939	ImpactWeight			\Default Work Unit\ImpactWeight	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	403375323	Medium Rain loopable	D:\mudki\Documents\WwiseProjects\GRD Rain\.cache\Windows\SFX\Medium Rain loopable_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic Rain\Strength\Medium Rain loopable		4321364
+	598784176	Rain loopable	D:\mudki\Documents\WwiseProjects\GRD Rain\.cache\Windows\SFX\Rain loopable_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic Rain\Strength\Rain loopable		6658672
+	717277242	Rain on Wood	D:\mudki\Documents\WwiseProjects\GRD Rain\.cache\Windows\SFX\Close up rain loopable_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic Rain\Surface\Rain on Wood		1997252
+	1002995219	Hard Rain loopable	D:\mudki\Documents\WwiseProjects\GRD Rain\.cache\Windows\SFX\Hard Rain loopable_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dynamic Rain\Strength\Hard Rain loopable		5546200
+
